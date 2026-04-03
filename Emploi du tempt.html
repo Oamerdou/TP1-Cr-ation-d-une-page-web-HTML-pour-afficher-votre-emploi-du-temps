@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emploi Du Temps - IAIL-S2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo {
+            width: 300px; 
+            display: block;
+            margin: 0 auto;
+        }
+        .title-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .year {
+            text-align: right;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+            font-size: 12px;
+            word-wrap: break-word;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .day-column {
+            font-weight: bold;
+            background-color: #f9f9f9;
+            width: 80px;
+        }
+        .lab-session {
+            color: red;
+            font-weight: bold;
+        }
+        /* Style for the Professor links */
+        .prof-link {
+            text-decoration: none;
+            color: #0056b3;
+            font-style: italic;
+        }
+        .prof-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="C:\Users\Umar\Desktop\TPWEB1\University Logo.jpg" alt="University Logo" class="logo">
+        <div class="year">Année Universitaire 2025-2026</div>
+    </div>
+
+    <div class="title-section">
+        <h2>Emploi Du Temps « Provisoire » — IAIL- S2</h2>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>8h À 10h30</th>
+                <th>10h30 À 12h</th>
+                <th>12h15 À 13h45</th>
+                <th>13h45 À 15h15</th>
+                <th>15h30 À 17h</th>
+                <th>17h À 18h30</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="day-column">Lundi</td>
+                <td>Programmation Python 2<br><a href="contact.html" class="prof-link">Prof M. Laraqui</a><br>Cours - Amphi A</td>
+                <td>Algorithmes Et Programmation C 2<br><a href="contact.html" class="prof-link">Prof H. Oudani</a><br>Cours - Amphi A</td>
+                <td></td>
+                <td>Algorithmes Et Programmation C 2<br><span class="lab-session">Td/Tp Grp1 – Salle P2</span><br><a href="contact.html" class="prof-link">Prof H. Oudani</a></td>
+                <td>Programmation Python 2<br><span class="lab-session">Td/Tp Grp 3 - Salle P2</span><br><a href="contact.html" class="prof-link">Prof A. Elouardi</a></td>
+                <td>Programmation Python 2<br><span class="lab-session">Td/Tp Grp 2 - Salle P2</span><br><a href="contact.html" class="prof-link">Prof A. Elouardi</a></td>
+            </tr>
+            <tr>
+                <td class="day-column">Mardi</td>
+                <td>Programmation Python 2<br><span class="lab-session">Td/Tp Grp 1 - Salle P2</span><br><a href="contact.html" class="prof-link">Prof A. Elouardi</a></td>
+                <td></td>
+                <td>Digital Skills & IA<br>Cours - Amphi A<br><a href="contact.html" class="prof-link">Prof A. Elouardi</a></td>
+                <td>Digital Skills & IA<br>Td/Tp - Amphi A<br><a href="contact.html" class="prof-link">Prof A. Elouardi</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="day-column">Mercredi</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Algorithmes Et Programmation C 2<br><span class="lab-session">Td/Tp Grp2 – Salle P2</span><br><a href="contact.html" class="prof-link">Prof H. Oudani</a></td>
+                <td>Algèbre 2<br>TD – Amphi A<br><a href="contact.html" class="prof-link">Prof I. Boutaayano</a></td>
+                <td>Analyse 2<br>Td – Amphi A<br><a href="contact.html" class="prof-link">Prof A. Hadri</a></td>
+            </tr>
+            <tr>
+                <td class="day-column">Jeudi</td>
+                <td>Traitement Du Signal<br>Cours - Amphi A<br><a href="contact.html" class="prof-link">Prof H. Azzahhafi</a></td>
+                <td>Traitement Du Signal<br>TD - Amphi A<br><a href="contact.html" class="prof-link">Prof H. Azzahhafi</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="day-column">Vendredi</td>
+                <td>Algèbre 2<br>Cours - Amphi C<br><a href="contact.html" class="prof-link">Prof I. Boutaayano</a></td>
+                <td>Analyse 2<br>Cours - Amphi C<br><a href="contact.html" class="prof-link">Prof A. Hadri</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="day-column">Samedi</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Programmation Web 1<br>Cours – Salle P1<br><a href="contact.html" class="prof-link">Prof K. Omari</a></td>
+                <td>Programmation Web 1<br><span class="lab-session">Td/Tp – Salle P2</span><br><a href="contact.html" class="prof-link">Prof K. Omari</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
